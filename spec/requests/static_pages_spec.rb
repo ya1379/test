@@ -31,4 +31,14 @@ RSpec.describe "StaticPages", type: :request do
       expect(page).to have_title("About")
     end
   end
+  describe "GET /static_pages" do
+    it "works! (now write some real specs)" do
+      get static_pages_contact_path
+      expect(response).to have_http_status(200)
+    end
+    it "should have the right title" do
+      visit '/static_pages/contact'
+      expect(page).to have_title("Contact")
+    end
+  end
 end

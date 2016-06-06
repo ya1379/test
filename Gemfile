@@ -7,6 +7,7 @@ gem 'rails', '4.0.2'
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'spork-rails'
 end
 gem 'pg'
 

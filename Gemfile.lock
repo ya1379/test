@@ -27,6 +27,11 @@ GEM
       tzinfo (~> 0.3.37)
     addressable (2.4.0)
     arel (4.0.2)
+    autoprefixer-rails (6.3.6.2)
+      execjs
+    bootstrap-sass (3.3.5)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     builder (3.1.4)
     capybara (2.7.1)
       addressable
@@ -83,16 +88,18 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.2)
     mime-types (1.25.1)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.1.0)
     minitest (4.7.5)
     multi_json (1.12.1)
     nenv (0.3.0)
-    nokogiri (1.6.7.2)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
     notiffany (0.1.0)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.18.4)
+    pkg-config (1.1.7)
     polyglot (0.3.5)
     pry (0.10.3)
       coderay (~> 1.1.0)
@@ -195,6 +202,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   capybara
   coffee-rails (~> 4.0.0)
   guard-rspec

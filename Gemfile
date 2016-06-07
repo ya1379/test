@@ -10,7 +10,7 @@ group :development, :test do
   gem 'spork-rails'
 end
 gem 'pg'
-
+gem 'bootstrap-sass'
 
 group :test do
   gem 'selenium-webdriver'

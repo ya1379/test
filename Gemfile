@@ -11,6 +11,7 @@ group :development, :test do
 end
 gem 'pg'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 group :test do
   gem 'selenium-webdriver'
